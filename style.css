@@ -1,0 +1,639 @@
+ 
+ 
+
+ 
+ .navbar{
+    backdrop-filter: blur(22px);
+    position: fixed;
+    width: 80%;
+    left: 10%;
+    z-index: 9999;
+ }
+
+ 
+ 
+ .btn1{
+    margin-bottom: 50px;
+    position: relative;
+    left: 73%;
+    padding-top: 20px;
+}
+.btn{
+   
+    height: 30px;
+    width: 100px;
+    position: absolute;
+    left:0px;
+
+    overflow: hidden;
+}
+.btn::before{
+    content: "Internships";
+    position: absolute;
+    left: 10%;
+    color: black;
+    transition: 0.6s;
+
+
+
+}
+.btn::after{
+    content: "Internships";
+    position: absolute;
+    left: 10%;
+    color: black;
+    top: 30px;
+    transition: 0.6s;
+}
+.btn:hover::before{
+top: -80%;
+}
+.btn:hover::after{
+    top: 10%;
+}
+
+/* get2 */
+.btn22{
+    padding-bottom: 70px;
+    position: absolute;
+    left: 85%;
+    top: 5px;
+}
+
+.btn2{
+    background-color:black;
+    height: 55px;
+    width: 140px;
+    position: absolute;
+    left: 55%;
+    overflow: hidden;
+
+}
+.btn2::before{
+    content: " Get Started";
+    position: absolute;
+    left: 20%;
+    top: 20px;
+    color: rgb(242, 240, 240);
+    transition: 0.5s;
+   
+}
+.btn2::after{
+    content: "Get Started";
+    position: absolute;
+    left: 20%;
+    color: white;
+    top: 55px;
+    transition: 0.5s;
+    z-index: 9999;
+}
+.btn2:hover::before{
+    top: -50%;
+ }
+.btn2:hover::after{
+        top: 30%;
+}
+.btn2 i::before{
+    content: "";
+    position: absolute;
+    left: -20px;
+    top: 49px;
+    width: 120%;
+    height: 200%;
+    background-color: darkslategrey;
+    transition: 0.8s;
+    border-radius: 50%;
+    z-index: 999;
+    
+}
+.btn2 i::before{
+    bottom: 0;
+    border-radius: 50% 50%  0 0;
+
+}
+.btn2 i:hover::before{
+    height: 380%;
+   border-radius: 0%;
+   top: 0%;
+}
+
+
+/* seation2 */
+.wrdrapper{
+   padding-top: 20%;
+   padding-left: 23%;
+}
+.wrdrapper1{
+display: flex;
+ margin-left: 10%; */
+}
+.ed{
+    font-size: 96px;
+   font-family: "Darker Grotesque",sans-serif; 
+}
+.tt{
+    font-family: "Darker Grotesque",sans-serif;  
+    font-size: 96px;
+}
+.hilight{ 
+    font-family: "Darker Grotesque",sans-serif;  
+    font-size: 76px;
+     color: #fff;
+    height:60%; 
+    padding-left: 5%;
+    padding-right: 5%;
+    
+    backdrop-filter: blur(22px);
+    background-color: rgb(97,118,115);
+    transform: rotate(-6.8deg);  
+}
+.lf{
+    font-family: "Darker Grotesque",sans-serif;  
+    font-size: 96px;
+
+}
+.ac{ 
+   font-family: "Darker Grotesque",sans-serif; 
+   font-size: 24px;
+   padding-left: 33%;
+}
+/* seation3 */
+.bomb1{
+    max-width: 100%;
+    padding-left: 10%;
+}
+
+
+
+
+/* sectoion 4 */
+.set4{
+     
+    height: 1000px;
+    background-color: rgb(26,57,52);
+    position: relative;
+}
+.hed1{
+    font-family: "DM Sans",sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    color: #8c9c99;
+    padding-top: 50px;
+    padding-left: 40%;
+}
+.hed2{
+    color: #fff;
+    font-size: 62px;
+    padding-top: 20px;  
+}
+.h2{
+    font-size: 66px;
+    padding-left: 100px;
+}
+.p1{
+    color: #8c9c99;
+    font-size: 16px;
+}
+   
+
+/* phto slider */
+.zaq{
+    margin-top: 90px;
+    background-color: rgb(26,57,52);
+}
+.flexWrapper {
+    margin-top: 24px;
+    display: flex;
+    grid-gap: 15px;
+    flex-wrap: wrap;
+  }
+  .flexTag {
+    padding: 2px 12px;
+    border-radius: 30px;
+    border: 1px solid #8c9c99;
+    color: #8c9c99;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 300;
+  }
+
+
+/* set 5 */
+.skill{
+    
+}
+
+.sho{
+    font-family: "DM Sans",sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    justify-content: space-between;
+    letter-spacing: 5px;
+    color: #8c9c99;
+    padding-top: 70px;
+    padding-left: 30%;
+}
+.enh{
+    color: #0d0a0a;
+    font-size: 59px;
+    padding-top: 20px;
+    padding-left:13%;
+}
+.dive{
+    color: #8c9c99;
+    font-size: 16px;
+    padding-left: 19%;
+}
+
+
+/* seation 6 */
+.xsw{
+    background-color:whitesmoke;
+   margin-top: 5%;
+}
+.flexWrapper1 {
+    margin-top: 24px;
+    display: flex;
+    grid-gap: 15px;
+    flex-wrap: wrap;
+  }
+  .flexTag1 {
+    padding: 2px 12px;
+    border-radius: 30px;
+    border: 1px solid #8c9c99;
+    color: #8c9c99;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 300;
+  }
+
+
+  /* section 7 */
+
+  .cde{
+    display: flex;
+   margin-left: 40%;
+   margin-top: 60px;
+  }
+  .cde .img1{
+    height: 150px;
+    width: 150px;
+    margin-top: 50px;
+    clip-path: polygon(50% 9%, 67% 32%, 86% 42%, 71% 63%, 73% 86%, 52% 77%, 30% 85%, 30% 64%, 14% 44%, 32% 33%);
+  }
+  .cde .img2{
+    height: 130px;
+    width: 170px;
+    margin-top: 50px;
+    
+  }
+
+
+  .cde .img3{
+    height: 130px;
+    width: 130px;
+    margin-top: 50px;
+    margin-left: 30px;
+    clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+
+  }
+.vfr{
+    font-size: 96px;
+    padding-left: 300px;
+    padding-top: 50px;
+    font-family: " Darker Grotesque",sans-serif;
+    font-weight: 500;
+}
+.vfr1{
+    margin-left: 250px;
+    padding-top: 30px;
+    color: #8c9c99;
+
+}
+
+
+
+/* section 9 */
+.explore{
+    margin-left: 50%;
+    background-color: rgb(232,235,235);
+    width: 85%;
+    margin-left: 8%;
+    margin-top: 10%;
+}
+.exp{
+    padding-top: 50px;
+    padding-left: 90px; 
+    font-size: 70px;
+    line-height: 75px;
+    font-family: "Darker Grotesque",sans-serif;
+}
+.lead{
+    padding-top: 30px;
+    padding-left: 90PX;
+    font-size: 17px;
+    color: #8c9c99;
+    font-family: "Darker Grotesque",sans-serif; 
+}
+ .more22{
+    padding-bottom: 70px;
+    top: 5px;
+} 
+
+ .more2{
+    background-color:black;
+    height: 55px;
+    width: 140px;
+    position: absolute;
+    left:15%;
+    overflow: hidden;
+
+} 
+.more2::before{
+    content:"Learn more";
+  position: absolute;  
+    position: absolute;
+    left: 20%;
+    top: 15px;
+    color: rgb(242, 240, 240);
+    transition: 0.5s;
+   
+}
+.more2::after{
+    content: "Learn more";
+    position: absolute;
+    left: 20%;
+    color: white;
+    top: 55px;
+    transition: 0.5s;
+    z-index: 9999;
+}
+.more2:hover::before{
+    top: -50%;
+ }
+.more2:hover::after{
+        top: 30%;
+}
+
+.grandpa{
+    padding-top: 40PX;
+    padding-left: 90PX;
+}
+
+
+/* set10 */
+
+.sect10{
+    background-color: rgb(252, 252, 252);
+    margin-top: 90px;
+    height: 500px;
+}
+.real{
+    padding-top: 30%;
+    padding-left: 5%;
+    font-size: 66px;
+    border: end;
+    font-family: "Darker Grotesque",sans-serif;
+    font-weight: 400;
+}
+.abc{
+    padding-top: 5%;
+    border-left: 1px solid;
+    padding-left: 60px;
+}
+.m1{
+    border-radius: 50%;
+    width: 60px;
+}
+.lek{
+    padding-top: 10px;
+    color: #8c9c99;
+}
+.lead1{
+    padding-top: 20px;
+    font-size: 22px;
+}
+
+/* sect 11 */
+.step{
+    position: sticky  ;
+    top: 150px;
+}
+.step1{
+    background-color:rgb(232,235,235);
+    height: 600px;
+    width: 85%;
+    margin-left: 8%;
+    position:relative;
+}
+.mko{
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+.mko1{
+    padding-left: 80px;
+    padding-top: 30px;
+    font-family: "Darker Grotesque",sans-serif;
+    font-size: 66px;
+}
+.mko11{
+    padding-left: 80px;
+    padding-top: 20px;
+    font-family: "Darker Grotesque",sans-serif;
+    font-size: 20px;
+
+}
+
+.okm1{
+    padding-left: 2%;
+    padding-top: 80px;
+}
+    /* step2 */ 
+
+.step2{
+    margin-top: 10px;
+    background-color:rgb(232,235,235);
+    width: 85%;
+    height: 600px;
+    margin-left: 8%;
+    
+}
+.qwe{
+  padding-left: 100px;
+  padding-top: 100px;
+  font-size: 40px;
+}
+.qwe1{
+    padding-left: 100px;
+    padding-top: 50px;
+    font-family: "Darker Grotesque",sans-serif;
+    font-size: 46px;
+}
+    
+.qwe2{
+    padding-left: 100px;
+    padding-top: 30px;
+    font-family: "Darker Grotesque",sans-serif;
+    font-size: 20px;
+
+  
+}
+.qwe3{
+    padding-left: 2%;
+    padding-top: 80px;
+    
+}
+
+/* set3 */
+
+.step3{
+    margin-top: 10px;
+    background-color:rgb(232,235,235);
+    width: 85%;
+    height: 600px;
+    margin-left: 8%;
+    
+
+}
+.dv1{
+    padding-left: 100px;
+    padding-top: 100px;
+    font-size: 40px;
+  }
+
+.dv2{
+    padding-left: 100px;
+    padding-top: 50px;
+    font-family: "Darker Grotesque",sans-serif;
+    font-size: 46px;
+}
+.dv3{
+    padding-left: 100px;
+    padding-top: 30px;
+    font-family: "Darker Grotesque",sans-serif;
+   font-size: 20px;
+}
+
+.tk{
+    padding-top: 100px;
+    padding-left:10%;
+}
+
+
+/* js  */
+.step4{
+    margin-top: 60px;
+    background-color: rgb(26,57,52);
+    height: 900px;
+}
+ .container .fields{
+    padding-top: 20%;
+    justify-content;
+    align-items: center;
+    color: #8c9c99;
+    display: flex;
+    box-shadow: none;
+    text-decoration: underline ;
+  
+ }
+ .input-fileld1{   
+  padding-left: 10%;
+    padding-top: 10%;
+    color: #8c9c99;
+    text-decoration: underline ;
+ }
+
+ .input-fileld{
+    display: block;
+ }
+ .gendder{
+   padding-top: 50px;
+   padding-left: 10%;
+   color: #8c9c99; 
+ }
+ .buttons1{
+  border: none;
+
+ }
+ .gr{
+    color: #8c9c99; 
+ }
+ .year{
+    display: flex;
+ }
+ .b1{
+    margin-top: 70px;
+    margin-left: 0px;
+    color: #8c9c99;
+    border: none;
+   
+
+ }
+ .now{
+    margin-top: 70px;
+    margin-left: 60px;
+    color: #8c9c99;
+
+ }
+ .btnbig{
+    background-color: #fff;
+    margin-top: 70px;
+    margin-left: 60px;
+    padding-left: 35%;
+    padding-right: 30%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: none;
+    color: #8c9c99;
+   
+
+ }
+ .btnbig:hover{
+    background-color: rgb(26,57,52);
+ }
+ .above{
+    padding-left: 60px;
+    padding-top: 70px;
+    color: #8c9c99;
+    
+ }
+ .is{
+    font-size: 16px;
+
+ }
+
+
+
+
+    /* part 1js */
+
+
+
+ 
+.s23{
+ color: #fff;
+ padding-top: 130px;
+ font-size: 66px;
+}
+.map{
+    padding-top: 70px;
+}
+
+
+
+ .above{
+      
+ }
+ .is{
+
+
+ }
+ .yes{
+ }
+
+   
+
+    
+

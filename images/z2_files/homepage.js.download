@@ -1,0 +1,21 @@
+$(document).ready(function () {
+    "allowd" == localStorage.getItem("cookie-enable") ? $(".cookies").hide() : $(".cookies").show(), setInterval(function () {
+        $(".brand-item.item-1").hasClass("active") ? $(".brand-item.item-1").removeClass("active") : $(".brand-item.item-1").addClass("active")
+    }, 4e3), setInterval(function () {
+        $(".brand-item.item-2").hasClass("active") ? $(".brand-item.item-2").removeClass("active") : $(".brand-item.item-2").addClass("active")
+    }, 4500), setInterval(function () {
+        $(".brand-item.item-3").hasClass("active") ? $(".brand-item.item-3").removeClass("active") : $(".brand-item.item-3").addClass("active")
+    }, 5500), setInterval(function () {
+        $(".brand-item.item-4").hasClass("active") ? $(".brand-item.item-4").removeClass("active") : $(".brand-item.item-4").addClass("active")
+    }, 5500), setInterval(function () {
+        $(".brand-item.item-5").hasClass("active") ? $(".brand-item.item-5").removeClass("active") : $(".brand-item.item-5").addClass("active")
+    }, 6e3), setInterval(function () {
+        $(".brand-item.item-6").hasClass("active") ? $(".brand-item.item-6").removeClass("active") : $(".brand-item.item-6").addClass("active")
+    }, 6500), setInterval(function () {
+        $(".brand-item.item-7").hasClass("active") ? $(".brand-item.item-7").removeClass("active") : $(".brand-item.item-7").addClass("active")
+    }, 7e3), setInterval(function () {
+        $(".brand-item.item-8").hasClass("active") ? $(".brand-item.item-8").removeClass("active") : $(".brand-item.item-8").addClass("active")
+    }, 7500)
+}), $(".cookies-button").on("click", function () {
+    localStorage.setItem("cookie-enable", "allowd"), $(".cookies").hide()
+});
